@@ -7,7 +7,7 @@ public class GradeConverter {
             return "B";
         } else if(score <= 79 && score >= 70) {
             return "C";
-        } else if(score <= 69 && score > 60) {
+        } else if(score <= 69 && score >= 60) {
             return "D";
         } else if(score <= 59 && score > 0) {
             return "E";
